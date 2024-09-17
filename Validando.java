@@ -13,11 +13,12 @@ public static void main(String[] args) {
     int n = Integer.parseInt(scan.nextLine());
     while (n-- != 0) {
         String userName = scan.nextLine();
-
+        
+        //saida de dados
         if (userName.matches(UsernameValidator.regularExpression)) {
-            System.out.println("Valid");
+            System.out.println("Valido");
         } else {
-            System.out.println("Invalid");
+            System.out.println("Invalido");
         }           
     }
 }
