@@ -1,5 +1,6 @@
 package validacao;
 
+//importando as classes
 import java.util.Scanner; 
 
 class UsernameValidator {  
