@@ -15,9 +15,9 @@ public static void main(String[] args) {
         String userName = scan.nextLine();
 
         if (userName.matches(UsernameValidator.regularExpression)) {
-            System.out.println("Valid");
+            System.out.println("Valido");
         } else {
-            System.out.println("Invalid");
+            System.out.println("Invalido");
         }           
     }
 }
